@@ -1,7 +1,12 @@
+// Helper file containing Utility Functions to support the main logic of assembler
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
+// -------------------------------------------------------------------------------------------------------------
+
+// Function to split a string into individual tokens
 vector<string> split(string s)
 {
     vector<string> output;
@@ -17,6 +22,9 @@ vector<string> split(string s)
     return output;
 }
 
+// -------------------------------------------------------------------------------------------------------------
+
+// Function to convert decimal to hexadecimal
 string decToHex(long long dec)
 {
     string hex = "";
@@ -50,3 +58,4 @@ string decToHex(long long dec)
 
     return ("0x" + hex);
 }
+// ------------------------------------------------- END -------------------------------------------------------
