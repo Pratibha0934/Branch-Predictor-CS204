@@ -331,9 +331,9 @@ int main()
 
     cout << "\n== Select the prediction model:" << endl;
     cout << "-> (a) Always Taken" << endl;
-    cout << "-> (b) Always Taken" << endl;
-    cout << "-> (c) Always Taken" << endl;
-    cout << "-> (d) Always Taken" << endl;
+    cout << "-> (b) Always NOT Taken" << endl;
+    cout << "-> (c) 1-BIT DYNAIMC" << endl;
+    cout << "-> (d) 2-BIT DYNAMIC" << endl;
 
     cout << "\nEnter option (a/b/c/d): ";
     char model;
