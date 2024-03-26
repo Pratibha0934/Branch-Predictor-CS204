@@ -37,6 +37,7 @@ To run the program, run the following command.
   core 0: Program Counter (Instruction code) Instruction command
 
   For example :
+
   core 0: 0x80004938 (0x00442803) lw a6, 4(s0)
 
   NO OTHER FORMAT IS ACCEPTABLE BY THE PROGRAM.
