@@ -32,7 +32,7 @@ To run the program, run the following command.
 
 - At the beginning, the program will ask for the name/location of the trace file you want to run the prediction models on.
 - Place the trace file in the same or any directory nad enter its name/location.
-- The trace must have the follownig format :
+- The trace must have the follownig format:
 
   core 0: Program Counter (Instruction code) Instruction command
 
